@@ -1,0 +1,46 @@
+{
+  "name": "decimalize",
+  "version": "0.0.1",
+  "description": "JS decimal expressions library written in TypeScript",
+  "main": "Decimalize.js",
+  "directories": {
+    "test": "tests"
+  },
+  "dependencies": {
+    "@types/big.js": "^6.0.0",
+    "big.js": "^6.0.2",
+    "parzec": "^1.0.1"
+  },
+  "devDependencies": {
+    "@types/jasmine": "^3.6.1",
+    "glob": "^7.1.6",
+    "jasmine": "^3.6.3",
+    "ts-node": "^9.0.0",
+    "typescript": "^4.0.5"
+  },
+  "scripts": {
+    "test": "ts-node node_modules/jasmine/bin/jasmine"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ADTJ/decimalize.git"
+  },
+  "keywords": [
+    "decimalize",
+    "decimal",
+    "expression",
+    "number",
+    "numeric",
+    "",
+    "table",
+    "filtering",
+    "defer",
+    "query"
+  ],
+  "author": "Aidy Jenkins",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ADTJ/decimalize/issues"
+  },
+  "homepage": "https://github.com/ADTJ/decimalize#readme"
+}
