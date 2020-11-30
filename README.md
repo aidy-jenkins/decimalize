@@ -65,20 +65,16 @@ In future, this will be extended to allow you to configure how values such as `N
 
 ## Operators
 
-&nbsp;
-
 Decimalize currently supports the standard arithmetic operators, `+ * / - ( )`
 
 Additional operators may be added in future for exponents and other operations, but for now these are only supported by BigNumber in method syntax
 
 ## Configuration
 
-&nbsp;
-
 This library does not expose any configuration at the moment, however, there are various configuration options available for BigNumber.js, which you can read about over at its [project page](https://github.com/MikeMcl/bignumber.js/)
 
 ## Dependencies
 
-&nbsp;
-
 The incredible [BigNumber.js](https://github.com/MikeMcl/bignumber.js/) and the amazing [Parzec](https://github.com/johtela/parzec), both of which are licensed under MIT, as is this library
+
+[Jasmine](https://jasmine.github.io/) is also used for the test suite
