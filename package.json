@@ -8,7 +8,7 @@
   },
   "dependencies": {
     "@types/big.js": "^6.0.0",
-    "big.js": "^6.0.2",
+    "bignumber.js": "^9.0.1",
     "parzec": "^1.0.1"
   },
   "devDependencies": {
