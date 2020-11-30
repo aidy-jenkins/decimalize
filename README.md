@@ -7,6 +7,12 @@ Allows you to write easily readable arithmetic expressions using more precise de
 const difference = (x, y) => dec`${x} - ${y}`;
 ```
 
+## Available from NPM
+
+`npm install decimalize`
+
+&nbsp;
+
 
 ## Numbers in JavaScript
 
