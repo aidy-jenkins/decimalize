@@ -58,7 +58,7 @@ You can also combine variables and static numbers in your expression
 ```javascript
 let result = dec`(${index} + 1) / ${base}`
 
-const calculatePercentage(amount, total) => dec`(${amount} / ${total}) * 100`
+const calculatePercentage = (amount, total) => dec`(${amount} / ${total}) * 100`
 ```
 
 ## Argument Types
