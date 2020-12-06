@@ -65,7 +65,7 @@ const calculatePercentage = (amount, total) => dec`(${amount} / ${total}) * 100`
 
 &nbsp;
 
-Arguments can be a `number`, `string` or `BigNumber` type, whatever values you pass in are immediately handed to the BigNumber constructor, and as such any invalid inputs will make the result of your expression, the BigNumber representation of `NaN` (which can be coerced to native `NaN` as number type)
+Arguments can be a `number`, `string` or `BigNumber` type, whatever values you pass in are immediately handed to the BigNumber constructor, and as such any invalid inputs will make the result of your expression the BigNumber representation of `NaN` (which can be coerced to native `NaN` as number type)
 
 In future, this will be extended to allow you to configure how values such as `NaN`, `null` and `undefined` will be handled.
 
